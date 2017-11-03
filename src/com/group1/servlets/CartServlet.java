@@ -49,7 +49,7 @@ public class CartServlet extends HttpServlet {
 		ServletContext ctx = getServletContext();
 		DbMgr dbMgr = (DbMgr) ctx.getAttribute("DbMgr");
 		Connection con = dbMgr.getConnection();
-		String deleteQuery = "delete cartdetails";
+		String deleteQuery = "delete cartdetails ";
 		try{
 		PreparedStatement ps = con.prepareStatement(deleteQuery);
 		ps.execute();

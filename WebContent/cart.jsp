@@ -44,7 +44,7 @@ totalprice=totalprice+Integer.parseInt(results.getString("TOTAL_COST"));
 }
 %>
 <tr><td></td><td></td><td></td><td>total cost:</td><td><input type="text" value="<%=totalprice%>"readonly></td></tr>
-<tr><td></td><td></td><td></td><td><input type="Submit" value="clear cart"></td><td><a href="final.html"><input type="button" value="Proceed to pay" /></a></td></tr>
+<tr><td></td><td></td><td></td><td><input type="Submit" value="clear cart"></td><td><a href="landing.html"><input type="button" value="Proceed to pay" /></a></td></tr>
 </TABLE>
 <table>
 <tr><td><a href="landing.html"><input type="button" value="home" /></a></td>
